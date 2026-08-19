@@ -1,6 +1,7 @@
 <?php 
 require_once "dados.php";
 require_once 'funcao.php';
+
 ?>
 
 <main>
@@ -10,3 +11,5 @@ require_once 'funcao.php';
           CriaAside($colecao_artigos[3])
     ?>
 </main>
+
+<?php include 'footer.php';?>
