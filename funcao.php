@@ -22,4 +22,16 @@ function criaSection2e3(array $conteudo2) {
           </section>";
 }
 
+function CriaAside(array $conteudoaside) {
+        echo "<section class='Articles'>
+            <input type='search'>
+            <div>
+                <h1> $conteudoaside[titulo]</h1>
+                <ul>
+
+                </ul>
+            </div>
+          </section>";
+}
+
 ?>
