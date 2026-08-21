@@ -1,9 +1,11 @@
 <?php 
     $colecao_artigos = array(
         array(
-            'titulo' => 'Article1',
+            'titulo' => 'Phantom Thieves Atacam Novamente!!',
             'subtitulo' => 'LOREM EPSUM',
-            'Texto' => 'abadabadooooooooo',
+            'Texto' => 'abadabadooooooooo<br>
+            abadabadooooooooo<br>
+            abadabadooooooooo<br>',
             'img' => 'IMG/Calling Card.png'
         ),
         array(
