@@ -27,11 +27,20 @@ function CriaAside(array $conteudoaside) {
             <input type='search'>
             <div>
                 <h1> $conteudoaside[titulo]</h1>
-                <ul>
-
-                </ul>
+                <ul>";
+        foreach($conteudoaside[0] as $conteudo => $index) {
+            echo "<li>$index</li>";
+        };
+        echo "</ul>
             </div>
-          </section>";
+            <div>
+                <ul>";
+                foreach($conteudoaside[1] as $index => $imgs) {
+                    echo "<li>$imgs</li>";
+                }
+        echo   "</ul>
+            </div>
+          </section>";  
 }
 
 ?>
