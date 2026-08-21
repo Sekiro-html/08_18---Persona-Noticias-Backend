@@ -1,6 +1,7 @@
 <?php 
 require_once "dados.php";
 require_once 'funcao.php';
+include './componentes/header.php';
 ?>
 
 <main>
@@ -9,3 +10,6 @@ require_once 'funcao.php';
           criaSection2e3($colecao_artigos[2]);
     ?>
 </main>
+<?php 
+    include './componentes/footer.php'; 
+?>
