@@ -6,9 +6,9 @@ function criaSection1(array $conteudo1) {
                 <h1> $conteudo1[titulo] </h1>
             </div>
             <h2> $conteudo1[subtitulo]</h2>
-            <p> $conteudo1[Texto]</p>
-            <img src='$conteudo1[img]'
-            <button></button>
+            <p> $conteudo1[previa]</p>
+            <img src='$conteudo1[img]'>
+            <a href='artigo.php?id=$conteudo1[id]'>leia mais</a>
           </section>";
 }
 
@@ -18,7 +18,7 @@ function criaSection2e3(array $conteudo2) {
                 <h1> $conteudo2[titulo] </h1>
             </div>
             <h2> $conteudo2[subtitulo]</h2>
-            <p> $conteudo2[Texto]</p>
+            <p> $conteudo2[previa]</p>
           </section>";
 }
 
@@ -41,6 +41,16 @@ function CriaAside(array $conteudoaside) {
         echo   "</ul>
             </div>
           </section>";  
+}
+
+function CriaArtigo(array $conteudoartigo) {
+        echo "<section class='ArtigoGrande'>
+            <div>
+                <h1>$conteudoartigo[titulo] </h1>
+            </div>
+            <h2> $conteudoartigo[subtitulo]</h2>
+            <p> $conteudoartigo[previa]</p>
+          </section>";
 }
 
 ?>
