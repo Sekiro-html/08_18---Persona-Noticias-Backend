@@ -1,10 +1,12 @@
 <?php  
 
 function criaSection1(array $conteudo1) {
-    echo "<section id='Article1'>
-            <div>
+    echo "<section class='articles' id='article1'>
+            <div class='caixaTitulo'>
                 <h1> $conteudo1[titulo] </h1>
             </div>
+            <img src='$conteudo1[img]'>
+            <div class='caixaTexto'>
             <h2> $conteudo1[subtitulo]</h2>
             <p> $conteudo1[previa]</p>
             <img src='$conteudo1[img]'>
@@ -35,7 +37,7 @@ function criaSection3(array $conteudo3) {
 }
 
 function CriaAside(array $conteudoaside) {
-        echo "<section class='Articles'>
+        echo "<aside>
             <input type='search'>
             <div>
                 <h1> $conteudoaside[titulo]</h1>
@@ -52,7 +54,7 @@ function CriaAside(array $conteudoaside) {
                 }
         echo   "</ul>
             </div>
-          </section>";  
+          </aside>";  
 }
 
 function CriaArtigo(array $conteudoartigo) {

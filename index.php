@@ -12,4 +12,5 @@ include './componentes/header.php';
           CriaAside($colecao_artigos[4]);
     ?>
 </main>
+
 <?php include 'componentes/footer.php';?>
