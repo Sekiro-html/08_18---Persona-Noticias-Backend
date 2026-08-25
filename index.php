@@ -5,10 +5,11 @@ include './componentes/header.php';
 ?>
 
 <main>
-    <?php criaSection1($colecao_artigos[0]);
-          criaSection2e3($colecao_artigos[1]);
-          criaSection2e3($colecao_artigos[2]);
-          CriaAside($colecao_artigos[3]);
+    <?php 
+          criaSection1($colecao_artigos[1]);
+          criaSection2($colecao_artigos[2]);
+          criaSection3($colecao_artigos[3]);
+          CriaAside($colecao_artigos[4]);
     ?>
 </main>
 <?php include 'componentes/footer.php';?>

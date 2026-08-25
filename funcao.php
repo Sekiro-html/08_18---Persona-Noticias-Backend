@@ -12,13 +12,25 @@ function criaSection1(array $conteudo1) {
           </section>";
 }
 
-function criaSection2e3(array $conteudo2) {
+function criaSection2(array $conteudo2) {
     echo "<section class='Articles'>
             <div>
                 <h1> $conteudo2[titulo] </h1>
             </div>
             <h2> $conteudo2[subtitulo]</h2>
             <p> $conteudo2[previa]</p>
+
+          </section>";
+}
+
+function criaSection3(array $conteudo3) {
+    echo "<section class='Articles'>
+            <div>
+                <h1> $conteudo3[titulo] </h1>
+            </div>
+            <h2> $conteudo3[subtitulo]</h2>
+            <p> $conteudo3[previa]</p>
+
           </section>";
 }
 
@@ -49,7 +61,8 @@ function CriaArtigo(array $conteudoartigo) {
                 <h1>$conteudoartigo[titulo] </h1>
             </div>
             <h2> $conteudoartigo[subtitulo]</h2>
-            <p> $conteudoartigo[previa]</p>
+            <img src='$conteudoartigo[imgartigo]' alt=''>
+            <p> $conteudoartigo[texto]</p>
           </section>";
 }
 

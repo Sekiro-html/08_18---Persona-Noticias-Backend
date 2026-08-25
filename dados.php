@@ -5,19 +5,25 @@
             'titulo' => 'Article1',
             'subtitulo' => 'LOREM EPSUM',
             'previa' => 'abadabadooooooooo',
-            'img' => 'IMG/Calling Card.png'
+            'texto' => 'lorem ipsem',
+            'img' => 'IMG/Calling Card.png',
+            'imgartigo' => 'IMG/img.png'
         ),
         '2' => array(
             'id' => '2',
             'titulo' => 'Article2',
             'subtitulo' => 'LOREM EPSUM',
             'previa' => 'abadabadooooooooo',
+            'texto' => 'lorem ipsem',
+            'imgartigo' => 'IMG/IMG.png'
         ),
         '3' => array(
             'id' => '3',
             'titulo' => 'Article3',
             'subtitulo' => 'LOREM EPSUM',
-            'previa' => 'abadabadooooooooo'
+            'previa' => 'abadabadooooooooo',
+            'texto' => 'lorem ipsem',
+            'imgartico' => 'IMG/img.png'
         ),
         array(
           'titulo' => 'Mais Lidos',  

@@ -1,8 +1,15 @@
 <?php 
 require_once 'dados.php';
+require_once 'funcao.php';
+include 'componentes/header.php';
 
-
-$id = $_GET['id'];
-echo $colecao_artigos[$_GET['id']]["id"];
 
 ?>
+<main>
+    <?php
+     CriaArtigo($colecao_artigos[$_GET["id"]]);
+     CriaAside($colecao_artigos[4])
+    ?>
+</main>
+
+<?php include 'componentes/footer.php';?>
