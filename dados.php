@@ -25,8 +25,9 @@
             'texto' => 'lorem ipsem',
             'imgartico' => 'IMG/img.png'
         ),
-        array(
-          'titulo' => 'Mais Lidos',  
+        '4' => array(
+          'id' => '4',
+          'titulo' => 'Mais Lidos', 
           array(
             'noticia1',
             'noticia2',
