@@ -7,15 +7,15 @@ function criaSection1(array $conteudo1) {
             </div>
             <img src='$conteudo1[img]'>
             <div class='caixaTexto'>
-            <h2> $conteudo1[subtitulo]</h2>
-            <p> $conteudo1[previa]</p>
-            <img src='$conteudo1[img]'>
-            <a href='artigo.php?id=$conteudo1[id]'>leia mais</a>
+                <h2> $conteudo1[subtitulo]</h2>
+                <p> $conteudo1[previa]</p>
+                <a href='artigo.php?id=$conteudo1[id]'>leia mais</a>
+            </div>
           </section>";
 }
 
 function criaSection2(array $conteudo2) {
-    echo "<section class='Articles'>
+    echo "<section class='articles'>
             <div>
                 <h1> $conteudo2[titulo] </h1>
             </div>
@@ -26,7 +26,7 @@ function criaSection2(array $conteudo2) {
 }
 
 function criaSection3(array $conteudo3) {
-    echo "<section class='Articles'>
+    echo "<section class='articles'>
             <div>
                 <h1> $conteudo3[titulo] </h1>
             </div>
@@ -36,7 +36,7 @@ function criaSection3(array $conteudo3) {
           </section>";
 }
 
-function CriaAside(array $conteudoaside) {
+function criaAside(array $conteudoaside) {
         echo "<aside>
             <input type='search'>
             <div>
@@ -57,8 +57,8 @@ function CriaAside(array $conteudoaside) {
           </aside>";  
 }
 
-function CriaArtigo(array $conteudoartigo) {
-        echo "<section class='ArtigoGrande'>
+function criaArtigo(array $conteudoartigo) {
+        echo "<section class='artigoGrande'>
             <div>
                 <h1>$conteudoartigo[titulo] </h1>
             </div>

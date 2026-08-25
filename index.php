@@ -7,9 +7,9 @@ include './componentes/header.php';
 <main>
     <?php 
           criaSection1($colecao_artigos[1]);
+          criaAside($colecao_artigos[4]);
           criaSection2($colecao_artigos[2]);
-          criaSection3($colecao_artigos[3]);
-          CriaAside($colecao_artigos[4]);
+          criaSection3($colecao_artigos[3]);  
     ?>
 </main>
 
