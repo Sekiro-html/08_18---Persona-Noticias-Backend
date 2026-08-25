@@ -1,22 +1,23 @@
 <?php 
     $colecao_artigos = array(
-        array(
-            'titulo' => 'Phantom Thieves Atacam Novamente!!',
+        '1' => array(
+            'id' => '1',
+            'titulo' => 'Article1',
             'subtitulo' => 'LOREM EPSUM',
-            'Texto' => 'abadabadooooooooo<br>
-            abadabadooooooooo<br>
-            abadabadooooooooo<br>',
+            'previa' => 'abadabadooooooooo',
             'img' => 'IMG/Calling Card.png'
         ),
-        array(
+        '2' => array(
+            'id' => '2',
             'titulo' => 'Article2',
             'subtitulo' => 'LOREM EPSUM',
-            'Texto' => 'abadabadooooooooo',
+            'previa' => 'abadabadooooooooo',
         ),
-        array(
+        '3' => array(
+            'id' => '3',
             'titulo' => 'Article3',
             'subtitulo' => 'LOREM EPSUM',
-            'Texto' => 'abadabadooooooooo'
+            'previa' => 'abadabadooooooooo'
         ),
         array(
           'titulo' => 'Mais Lidos',  
