@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 15px;
+    
+}
+
 header {
     background-color: #f8f9fa;
 }
@@ -39,10 +47,12 @@ header a:hover {
 }
 
 #article1 {
-    float: left;
     width: 700px;
     background-color: #d92323;
     clip-path: polygon(0% 12%, 92% 0%, 100% 85%, 8% 100%);
+    width: 800px;
+    grid-column: 1 / 3;
+    grid-row: 1;
 }
 
 #article1 .caixaTitulo {
@@ -72,8 +82,8 @@ header a:hover {
 
 #article1 p {
     color: #fff;
-    font-size: 15px;
-    align-self: center;
+    font-size: 18px;
+    float: left;
 }
 
 .caixaTexto {
@@ -117,33 +127,29 @@ header a:hover {
 .articles {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    margin: 20px;
     background-color: aqua;
-    width: 330px;
-    float: left;
+    width: 378px;
     height: 300px;
+    grid-row: 2;
+    margin-left: 10px;
 }
 
 aside {
     background-color: #25cb38;
     padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: 20px;
-    width: 30%;
-    height: 500px;
-    float: right;
+    width: 400px;
+    height: 626px;
+    grid-column: 3;
+    grid-row: 1 / 3;
+    margin-top: 10px;
 }
-
-
-
 
 footer {
     width: 100%;
     height: 25px;
     background-color: #c3c4c5;
-    padding: 10px 0;
+    
     text-align: center;
     margin-top: 20px;
     float: left;

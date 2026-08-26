@@ -1,4 +1,37 @@
-<?php
+<?php  
+
+function criaAside(array $conteudoaside) {
+        echo "<aside>
+            <input type='search'>
+            <div>
+                <h1> $conteudoaside[titulo]</h1>
+                <ul>";
+        foreach($conteudoaside[0] as $conteudo => $index) {
+            echo "<li>$index</li>";
+        };
+        echo "</ul>
+            </div>
+            <div>
+                <ul>";
+                foreach($conteudoaside[1] as $index => $imgs) {
+                    echo "<li>$imgs</li>";
+                }
+        echo   "</ul>
+            </div>
+          </aside>";  
+}
+
+function criaArtigo(array $conteudoartigo) {
+        echo "<section class='artigoGrande'>
+            <div>
+                <h1>$conteudoartigo[titulo] </h1>
+            </div>
+            <h2> $conteudoartigo[subtitulo]</h2>
+            <img src='$conteudoartigo[imgartigo]' alt=''>
+            <p> $conteudoartigo[texto]</p>
+          </section>";
+}
+
 function CriaTudo(array $conteudo) {
     
     for($i = 1; $i < 5; $i++) {
@@ -40,7 +73,7 @@ function CriaTudo(array $conteudo) {
         }
 
         if($i == 2 || 3 && $i > 1 && $i < 4){
-        echo "<section class='Articles'>
+        echo "<section class='articles'>
                 <div>
                     <h1> ". $conteudo[$i]['titulo'] ." </h1>
                 </div>
@@ -71,39 +104,6 @@ function CriaTudo(array $conteudo) {
             </aside>";  
         }
 
+    }
 }
-}
-
-function CriaAside(array $conteudoaside) {
-        echo "<aside>
-            <input type='search'>
-            <div>
-                <h1> $conteudoaside[titulo]</h1>
-                <ul>";
-        foreach($conteudoaside[0] as $conteudo => $index) {
-            echo "<li>$index</li>";
-        };
-        echo "</ul>
-            </div>
-            <div>
-                <ul>";
-                foreach($conteudoaside[1] as $index => $imgs) {
-                    echo "<li>$imgs</li>";
-                }
-        echo   "</ul>
-            </div>
-          </aside>";  
-}
-
-function CriaArtigo(array $conteudoartigo) {
-        echo "<section class='ArtigoGrande'>
-            <div>
-                <h1>$conteudoartigo[titulo] </h1>
-            </div>
-            <h2> $conteudoartigo[subtitulo]</h2>
-            <img src='$conteudoartigo[imgartigo]' alt=''>
-            <p> $conteudoartigo[texto]</p>
-          </section>";
-}
-
 ?>
