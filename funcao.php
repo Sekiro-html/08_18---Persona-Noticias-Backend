@@ -72,7 +72,22 @@ function CriaTudo(array $conteudo) {
             </section>";
         }
 
-        if($i == 2 || 3 && $i > 1 && $i < 4){
+        if($i == 2 && $i > 1 && $i < 4){
+        echo "<section class='articles' id='article2'>
+                <div class='tela'>
+                    <div>
+                        <h1> ". $conteudo[$i]['titulo'] ." </h1>
+                    </div>
+                    <h2> ". $conteudo[$i]['subtitulo'] ."</h2>
+                    <p> ". $conteudo[$i]['previa'] ."</p>
+                    <a href='artigo.php?id=". $conteudo[$i]['id'] ."'>leia mais</a>
+                </div>
+
+                <img src='IMG/tv.png' class='imagemTV'>
+            </section>";
+        }
+
+        if($i == 3 && $i > 1 && $i < 4){
         echo "<section class='articles'>
                 <div>
                     <h1> ". $conteudo[$i]['titulo'] ." </h1>
