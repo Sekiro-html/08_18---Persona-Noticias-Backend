@@ -67,7 +67,7 @@ function CriaTudo(array $conteudo) {
                     <h2> ". $conteudo[$i]['subtitulo'] ."</h2>
                     <br>
                     <p>". $conteudo[$i]['previa'] ."</p>
-                    <a href='artigo.php?id=". $conteudo[$i]["id"] ."' class='botao'>leia mais</a>
+                    <a href='artigo.php?id=". $conteudo[$i]["id"] ."' class='botao'>Leia mais</a>
                 </div>
             </section>";
         }
@@ -76,12 +76,17 @@ function CriaTudo(array $conteudo) {
         echo "<section class='articles' id='article2'>
                 <div class='tv'>
                     <div class='tela'>
-                        <div>
+                        <div id='titulo'>
                             <h1> ". $conteudo[$i]['titulo'] ." </h1>
                         </div>
-                        <h2> ". $conteudo[$i]['subtitulo'] ."</h2>
-                        <p> ". $conteudo[$i]['previa'] ."</p>
-                        <a href='artigo.php?id=". $conteudo[$i]['id'] ."'>leia mais</a>
+                        <div id='noticia'>
+                            <h2> ". $conteudo[$i]['subtitulo'] ."</h2>
+                            <p> ". $conteudo[$i]['previa'] ."</p>
+                            <a href='artigo.php?id=". $conteudo[$i]['id'] ."'>Leia mais</a>
+                        </div>
+                        <div id='ciano'></div>
+                        <div id='limao'></div>
+                        <div id='vermelho'></div>
                     </div>
 
                     <img src='IMG/tv.png' class='imagemTV'>

@@ -11,6 +11,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
+    gap: 20px;
 }
 
 header {
@@ -110,9 +111,9 @@ header a:hover {
     padding: 10px;
     display:  flex;
     justify-content: center;
-    float: left;
-    height: 200px;
-    margin-top: -10px;
+    float: leftp;
+    height: 150px;
+    margin-top: 10px;
     border-radius: 10px;
 }
 
@@ -132,9 +133,11 @@ header a:hover {
     align-self: flex-end;
     cursor: pointer;
     margin: 10px;
-    width: 160px;
+    width: 180px;
     height: 40px;
     text-decoration: none;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .botao a {
@@ -166,34 +169,6 @@ aside {
 
 /* artigo 2 */
 
-.tv {
-    position: relative;
-    width: 600px;
-    align-items: center;
-    justify-items: center;
-}
-
-.imagemTV {
-    width: 550px;
-    height: 350px;
-    display: block;
-    position: absolute;
-    z-index: 2;
-}
-
-.tela {
-    position: absolute;
-    top: 27%;
-    left: 3%;
-    width: 72%;
-    height: 45%;
-    overflow: hidden;
-    border-radius: 4% 5% 6% 4%;
-    z-index: 1;
-    color: #0d0d0d;
-    background-color: #7b7b7b;
-}
-
 #article2 {
     margin: 0;
     padding: 20px;
@@ -201,7 +176,77 @@ aside {
     color: white;  
     width: 100%;
     height: 300px;
-    background-color: #0d0d0d;
+}
+
+.tv {
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.tela {
+    position: absolute;
+    bottom: 5%;
+    left: -21.5%;
+    width: 120%;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 4% 5% 6% 4%;
+    z-index: 1;
+    color: #0d0d0d;
+    background-color: #FFE52C;
+}
+
+.tela div {
+    height: 50px;
+    justify-items: center;
+}
+
+#noticia {
+    background-color: #FAA622;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#noticia h2{
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+#noticia p {
+    margin-right: 35px;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+#noticia a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: #0d0d0d;
+    font-weight: bolder;
+}
+
+#ciano {
+    background-color: #7FE6EF;
+}
+
+#verde {
+    background-color: #8ad301;
+}
+
+#vermelho {
+    background-color: #C22303;
+}
+
+
+
+.imagemTV {
+    width: 200%;
+    height: auto;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    bottom: -50px;
 }
 
 /* artigo 3 */

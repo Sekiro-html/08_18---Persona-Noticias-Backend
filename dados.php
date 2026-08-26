@@ -11,9 +11,9 @@
         ),
         '2' => array(
             'id' => '2',
-            'titulo' => 'Article2',
-            'subtitulo' => 'LOREM EPSUM',
-            'previa' => 'abadabadooooooooo',
+            'titulo' => 'Clima em Inaba',
+            'subtitulo' => 'Nevoa misteriosa que faz pessoas morrem',
+            'previa' => 'Desde 29 de abril uma nevoa misteriosa aparece de vez em quando e no dia seguinte alguem aparece morto',
             'texto' => 'lorem ipsem',
             'imgartigo' => 'IMG/IMG.png'
         ),
