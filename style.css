@@ -52,6 +52,8 @@ header a:hover {
     text-decoration: underline;
 }
 
+/* artigo 1 */
+
 #article1 {
     width: 700px;
     background-color: #d92323;
@@ -132,6 +134,8 @@ header a:hover {
     text-align: center;
 }
 
+/*artigos no geral  */
+
 .articles {
     display: flex;
     flex-wrap: wrap;
@@ -151,6 +155,42 @@ aside {
     grid-column: 3;
     grid-row: 1 / 3;
     margin-top: 10px;
+}
+
+/* artigo 2 */
+
+.tv {
+    position: relative;
+    width: 600px;
+}
+
+.imagemTV {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+.tela {
+    position: absolute;
+    top: 27%;
+    left: 3%;
+    width: 72%;
+    height: 45%;
+    overflow: hidden;
+    border-radius: 4% 5% 6% 4%;
+    z-index: 1;
+}
+
+#article2 {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #666;
+    color: white;
+    overflow: auto;
 }
 
 footer {
