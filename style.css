@@ -16,14 +16,20 @@ header {
     background-color: #f8f9fa;
 }
 
-header img {
-    height: 275px;
+header div {
+    height: 435px;
     width: 100%;
+    background-image: url(IMG/Persona\ 5\ Heart\ GIF.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -175px;
 }
 
 header nav {
     display: flex;
-    justify-content: center;
+    justify-content: baseline;
+    width: 30%;
+    
 }
 
 header ul {
@@ -39,7 +45,7 @@ header li {
 
 header a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
 }
 
 header a:hover {
