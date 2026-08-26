@@ -9,7 +9,6 @@
 <body>
     <header>
         <div>
-            <img src="./IMG/Banner persona 5.jpg" alt="">
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>

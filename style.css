@@ -16,14 +16,20 @@ header {
     background-color: #f8f9fa;
 }
 
-header img {
-    height: 275px;
+header div {
+    height: 435px;
     width: 100%;
+    background-image: url(IMG/Persona\ 5\ Heart\ GIF.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -175px;
 }
 
 header nav {
     display: flex;
-    justify-content: center;
+    justify-content: baseline;
+    width: 30%;
+    
 }
 
 header ul {
@@ -39,7 +45,7 @@ header li {
 
 header a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
 }
 
 header a:hover {
@@ -69,10 +75,11 @@ header a:hover {
 }
 
 #article1 h1 {
-    color: #fff;
-    font-size: 24px;
+    color: #0d0d0d;
+    font-size: 34px;
     float: left;
     margin-right: 50px;
+    font-family: 'calling card', sans-serif;
 }
 
 #article1 h2 {
@@ -85,6 +92,7 @@ header a:hover {
 #article1 p {
     color: #fff;
     font-size: 18px;
+    align-self: center;
     float: left;
 }
 
@@ -96,7 +104,7 @@ header a:hover {
     justify-content: center;
     float: left;
     height: 200px;
-    margin-top: -20px;;
+    margin-top: -10px;;
 }
 
 #article1 img {
@@ -110,12 +118,12 @@ header a:hover {
 
 .botao {
     color: #fff;
-    border: 1px solid black;
-    padding: 10px 3px;
+    border: 1px solid #7b7b7b;
+    padding: 10px 4px;
     align-self: flex-end;
     cursor: pointer;
     margin: 10px;
-    width: 162px;
+    width: 155px;
     height: 40px;
     text-decoration: none;
 }
@@ -193,4 +201,11 @@ footer {
     text-align: center;
     margin-top: 20px;
     float: left;
+}
+
+@font-face {
+  font-family: 'Calling Card';
+  src: url('fonts/EarwigFactory-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }

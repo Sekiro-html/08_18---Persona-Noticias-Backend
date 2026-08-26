@@ -35,7 +35,7 @@ function criaArtigo(array $conteudoartigo) {
 function CriaTudo(array $conteudo) {
     
     for($i = 1; $i < 5; $i++) {
-        if($i == $_GET['id']    ){
+        if(isset($_GET['id']) && $i == $_GET['id']){
         echo "<aside>
             <input type='search'>
             <div>
