@@ -74,21 +74,23 @@ function CriaTudo(array $conteudo) {
 
         if($i == 2 && $i > 1 && $i < 4){
         echo "<section class='articles' id='article2'>
-                <div class='tela'>
-                    <div>
-                        <h1> ". $conteudo[$i]['titulo'] ." </h1>
+                <div class='tv'>
+                    <div class='tela'>
+                        <div>
+                            <h1> ". $conteudo[$i]['titulo'] ." </h1>
+                        </div>
+                        <h2> ". $conteudo[$i]['subtitulo'] ."</h2>
+                        <p> ". $conteudo[$i]['previa'] ."</p>
+                        <a href='artigo.php?id=". $conteudo[$i]['id'] ."'>leia mais</a>
                     </div>
-                    <h2> ". $conteudo[$i]['subtitulo'] ."</h2>
-                    <p> ". $conteudo[$i]['previa'] ."</p>
-                    <a href='artigo.php?id=". $conteudo[$i]['id'] ."'>leia mais</a>
-                </div>
 
-                <img src='IMG/tv.png' class='imagemTV'>
+                    <img src='IMG/tv.png' class='imagemTV'>
+                </div>
             </section>";
         }
 
         if($i == 3 && $i > 1 && $i < 4){
-        echo "<section class='articles'>
+        echo "<section class='articles' id='article3'>
                 <div>
                     <h1> ". $conteudo[$i]['titulo'] ." </h1>
                 </div>

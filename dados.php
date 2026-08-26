@@ -3,7 +3,7 @@
         '1' => array(
             'id' => '1',
             'titulo' => 'Phantoms Thieves',
-            'subtitulo' => 'Qual Será o proximo alvo dos Phantom Thieves?',
+            'subtitulo' => 'Qual vai ser o proximo alvo dos Phantom Thieves?',
             'previa' => 'Todos os estão ansiosos para saber o proximo alvo dos Phantom Thieves.',
             'texto' => 'lorem ipsem',
             'img' => 'IMG/Calling Card.png',
