@@ -5,11 +5,12 @@
 }
 
 main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
-
-    
 }
 
 header {
@@ -55,10 +56,9 @@ header a:hover {
 /* artigo 1 */
 
 #article1 {
-    width: 700px;
+    width: 100%;
     background-color: #d92323;
     clip-path: polygon(0% 12%, 92% 0%, 100% 85%, 8% 100%);
-    width: 800px;
     grid-column: 1 / 3;
     grid-row: 1;
 }
@@ -156,8 +156,8 @@ aside {
     background-color: #25cb38;
     padding: 20px;
     border: 1px solid #ccc;
-    width: 400px;
-    height: 626px;
+    width: 100%;
+    height: auto;
     grid-column: 3;
     grid-row: 1 / 3;
     margin-top: 10px;
@@ -199,7 +199,7 @@ aside {
     padding: 20px;
     box-sizing: border-box;
     color: white;  
-    width: 378px;
+    width: 100%;
     height: 300px;
     background-color: #0d0d0d;
 }
@@ -207,7 +207,7 @@ aside {
 /* artigo 3 */
 
 #article3 {    
-    width: 378px;
+    width: 100%;
     height: 300px;
     background-color: aqua;
 }
