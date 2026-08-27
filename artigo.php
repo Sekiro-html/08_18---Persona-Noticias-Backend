@@ -8,7 +8,7 @@ include 'componentes/header.php';
 <main>
     <?php
      CriaArtigo($colecao_artigos[$_GET["id"]]);
-     CriaTudo($colecao_artigos)
+     CriaAside($colecao_artigos[4]);
     ?>
 </main>
 
